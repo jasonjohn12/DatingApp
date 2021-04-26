@@ -12,7 +12,8 @@ import { Member } from '../models/member';
 })
 export class MembersService {
   baseUrl = environment.apiUrl;
-members: Member[] = [];
+  members: Member[] = [];
+
 
   constructor(private http: HttpClient) {}
 
@@ -41,4 +42,5 @@ members: Member[] = [];
        })
      )
    }
+
 }
