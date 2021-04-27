@@ -19,8 +19,6 @@ import { FileUploadModule } from 'ng2-file-upload';
     TabsModule.forRoot(),
     NgxGalleryModule,
     FileUploadModule,
-      positionClass:'toast-bottom-right'
-    }),
   ],
   exports: [
     BrowserAnimationsModule,
